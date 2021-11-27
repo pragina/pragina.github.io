@@ -1,0 +1,302 @@
+body {
+  /* background-color: rgb(258, 246, 246); */
+  /* background-color: lavenderblush; */
+  font-family: "Courier New", Courier, monospace, Arial, Helvetica, sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* color: black; */
+  text-align: center;
+  margin: 0px auto;
+  color: black;
+  font-weight: 600;
+  /* background-color: #eee6ff;  don't remove this color*/ 
+}
+
+nav {
+  background-color: rgb(124, 124, 137);
+  color: aliceblue;
+  /* height: 55px; */
+  height: 220px;
+  font-family: "Roboto Condensed", sans-serif;
+  /* margin: 0px auto 0px auto; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  /* padding-left: 0; */
+  /* margin: 0 auto; */
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline-block;
+  /* padding: 0.5em 1em; */
+  padding: 1em 2em;
+  /* padding: 20px; */
+  margin-right: 2em;
+  /* width: 75%; */
+  /* text-align: justify; */
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* color: aliceblue; */
+  color: black;
+}
+
+nav ul li a:hover {
+  /* background-color: rgb(95, 84, 77); */
+  display: block;
+  width: 100%;
+  color: chocolate;
+  text-transform: uppercase;
+}
+/* 
+div {
+  margin: 0px, auto;
+} */
+
+section {
+  /* padding: 1em; */
+  /* margin-top: 10px; */
+  /* height: 200px; */
+  justify-content: center;
+}
+
+.section-home {
+  margin-top: 80px;
+  /* margin-top: 120px;  */
+  /* --padding: ; */
+}
+
+p {
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+/* .div-main {
+  margin: 0px auto;
+} */
+
+.nav-barposition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(124, 124, 137);
+  color: aliceblue;
+  height: 180px;
+  /* width: 100%; */
+}
+
+.div-alternative-color-home {
+  /* background-color: lavenderblush; */
+  background-color: #eee6ff;
+  /* display: inline-block; */
+  height: 300px;
+}
+
+.div-alternative-color-aboutme {
+  /* background-color: lavenderblush; */
+  background-color: rgb(258, 246, 246);
+  /* display: inline-block; */
+  height: 370px;
+}
+
+.div-alternative-color-resume {
+  /* background-color: lavenderblush; */
+  background-color: #eee6ff;
+  /* display: inline-block; */
+  height: 400px;
+}
+
+.div-alternative-color-projects {
+  /* background-color: lavenderblush; */
+  background-color: rgb(258, 246, 246);
+  /* display: inline-block; */
+  height: 400px;
+}
+
+.div-alternative-color-form {
+  /* background-color: lavenderblush; */
+  background-color: #eee6ff;
+  /* display: inline-block; */
+  height: 650px;
+}
+
+.div-alternative-color2 {
+  /* background-color: lavenderblush; */
+  background-color: rgb(258, 246, 246);
+  /* display: inline-block; */
+  height: 500px;
+}
+
+h1 {
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.h1-home{
+  padding: 20px 20px 10px 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* height: 160px; */
+}
+
+.project-box {
+  box-sizing: border-box;
+  /* display: inline-block; */
+  width: 45%;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  /* background-color: purple; */
+  color: darkslategrey;
+  font-size: 1.2em;
+  border: dotted;
+  border-left-color: rosybrown;
+  border-right-color: rosybrown;
+}
+
+.p-project-box{
+  font-size: 0.5em;
+  color: midnightblue;
+}
+
+.form-label {
+  color: rgb(258, 246, 246);
+  text-align: left;
+}
+
+
+/*  Media Queries  - Responsive Design */
+@media (max-width: 414px) {
+  nav {
+    height: 220px;
+    text-align: left;
+  }
+
+  nav ul li {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .nav-barposition {
+    height: 220px;
+   /* width: 100%; */
+ }
+  .section-home {
+    margin-top: 215px;
+    background-color: #eee6ff;
+    height: 340px;
+    /* --padding: ; */
+  }
+
+  .div-alternative-color-home1 {
+    /* background-color: lavenderblush; */
+    background-color: #eee6ff;
+    /* display: inline-block; */
+    height: 340px;
+    
+  }
+
+  .div-alternative-color-aboutme {
+    /* background-color: lavenderblush; */
+    background-color: rgb(258, 246, 246);
+    /* display: inline-block; */
+    height: 500px;
+  }
+}
+
+
+
+/* .form-label-input-alignment {
+  
+} */
+/* .container-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 250px);
+  background-color: #eee6ff;
+  border: 1px solid black;
+} */
+
+@media (min-width: 415px) and (max-width: 780px) {
+  /* body {
+    color: green;
+  } */
+  nav {
+    height: 80px;
+    /* height: 180px; */ */
+    /* text-align: center; */
+  }
+
+ 
+
+  nav ul li {
+    /* width: 100%; */
+    padding: 10px;
+  }
+  nav ul li a {
+    /* width: 100%; */
+    /* padding: 10px;
+    margin-right: 10px; */
+    display: inline-block;
+    /* padding: 0.5em 1em; */
+    /* padding: 1em; */
+    /* padding: 20px; */
+    /* margin-right: 10px; */
+    /* width: 75%; */
+    /* text-align: justify; */
+    /* list-style-type: none; */
+  }
+  .nav-barposition {
+    /* height: 80px; */
+   /* width: 100%; */
+ }
+
+  .section-home {
+    margin-top: 80px;
+    /* --padding: ; */
+  }
+
+  .div-alternative-color-aboutme{
+    /* background-color: lavenderblush; */
+    background-color: rgb(258, 246, 246);
+    /* display: inline-block; */
+    height: 460px;
+  }
+
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    color: red;
+  }
+} */
+
+@media (min-width: 781px) {
+  /* body {
+    color: blue;
+  } */
+  nav {
+    height: 80px;
+   /* width: 100%; */
+ }
+
+
+}
