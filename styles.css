@@ -115,14 +115,14 @@ p {
   /* background-color: lavenderblush; */
   background-color: #eee6ff;
   /* display: inline-block; */
-  height: 400px;
+  height: 500px;
 }
 
 .div-alternative-color-projects {
   /* background-color: lavenderblush; */
   background-color: rgb(258, 246, 246);
   /* display: inline-block; */
-  height: 400px;
+  height: 520px;
 }
 
 .div-alternative-color-form {
@@ -159,19 +159,20 @@ h1 {
   box-sizing: border-box;
   /* display: inline-block; */
   width: 45%;
-  height: 200px;
+  height: 400px;
   margin: 5px;
   padding: 5px;
   /* background-color: purple; */
   color: darkslategrey;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border: dotted;
   border-left-color: rosybrown;
   border-right-color: rosybrown;
+  background-color: white;
 }
 
 .p-project-box{
-  font-size: 0.5em;
+  font-size: 0.6em;
   color: midnightblue;
 }
 
@@ -179,6 +180,11 @@ h1 {
   color: rgb(258, 246, 246);
   text-align: left;
 }
+
+.imgborder {
+  border-radius: 15vmax;
+}
+
 
 
 /*  Media Queries  - Responsive Design */
@@ -219,6 +225,43 @@ h1 {
     /* display: inline-block; */
     height: 500px;
   }
+
+  .div-alternative-color-resume {
+    /* background-color: lavenderblush; */
+    background-color: #eee6ff;
+    /* display: inline-block; */
+    height: 570px;
+  }
+
+  .div-alternative-color-projects {
+    /* background-color: lavenderblush; */
+    background-color: rgb(258, 246, 246);
+    /* display: inline-block; */
+    height: 630px;
+  }
+
+  .project-box {
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 45%;
+    height: 510px;
+    margin: 5px;
+    padding: 5px;
+    /* background-color: purple; */
+    color: darkslategrey;
+    font-size: 1.2em;
+    border: dotted;
+    border-left-color: rosybrown;
+    border-right-color: rosybrown;
+    background-color: white;
+  }
+
+  /* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 760px;
+  } */
 }
 
 
@@ -281,6 +324,36 @@ h1 {
     height: 460px;
   }
 
+  .div-alternative-color-resume {
+    /* background-color: lavenderblush; */
+    background-color: #eee6ff;
+    /* display: inline-block; */
+    height: 560px;
+  }
+
+  .div-alternative-color-projects {
+    /* background-color: lavenderblush; */
+    background-color: rgb(258, 246, 246);
+    /* display: inline-block; */
+    height: 560px;
+  }
+
+  .project-box {
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 45%;
+    height: 450px;
+    margin: 5px;
+    padding: 5px;
+    /* background-color: purple; */
+    color: darkslategrey;
+    font-size: 1.2em;
+    border: dotted;
+    border-left-color: rosybrown;
+    border-right-color: rosybrown;
+    background-color: white;
+  }
+
 }
 
 /* @media (min-width: 1024px) {
@@ -298,5 +371,6 @@ h1 {
    /* width: 100%; */
  }
 
+ 
 
 }
