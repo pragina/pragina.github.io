@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
-    <main>
+    <main class="container">
       <!-- Main Div -->
       <!-- <div> -->
       <!-- Section of NavBar -->
@@ -43,9 +43,9 @@
       <!-- </div> -->
       <!-- </section> -->
       <!-- Main Section starts from here -->
-      <div>
+      <div class="main-container">
         <!-- Section of Home Starts-->
-        <section id="home" class="section-home div-alternative-color-home">
+        <section id="home" class="section-home background-1">
           <div>
             <h1 class="h1-home">PV</h1>
             <div class="container">
@@ -109,14 +109,14 @@
             </div>
             <br />
             <p>Hi! I'm Pragina Vaidya.</p>
-            <p>Passionate about BigData and IOT's</p>
+            <p>Passionate about BigData and IOT's.</p>
             <p>I like to explore new things and travel to new places.</p>
             <p>Currently exploring a field of Web Development.</p>
           </div>
         </section>
 
         <!-- Section of AboutMe Starts-->
-        <section id="aboutme" class="div-alternative-color-aboutme">
+        <section id="aboutme" class="background-2">
           <div>
             <h1>ABOUT ME</h1>
             <p>
@@ -136,7 +136,7 @@
           </div>
         </section>
         <!-- Section of Previous Work Starts from here-->
-        <section id="resume" class="div-alternative-color-resume">
+        <section id="resume" class="background-1">
           <div>
             <h1>RESUME</h1>
             <div class="container">
@@ -146,19 +146,23 @@
                 <!-- <div class="row mt-4 fw-normal"> -->
                 <div class="row mt-4">
                   <div class="col-md-6">Year 2014-2017</div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 resume-text-align">
                     Senior Assistance at Himalayan Bank IT Department
                   </div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-md-6">Year 2011-2014</div>
-                  <div class="col-md-6">Software Programmer</div>
+                  <div class="col-md-6 resume-text-align">
+                    Software Programmer
+                  </div>
                 </div>
 
-                <div class="row mt-3">
+                <div class="row mt-3 text-left">
                   <div class="col-md-6">Year 2009-2011</div>
-                  <div class="col-md-6">Software Programmer</div>
+                  <div class="col-md-6 resume-text-align">
+                    Software Programmer
+                  </div>
                 </div>
 
                 <div class="row mt-5">
@@ -169,26 +173,30 @@
 
                 <div class="row mt-4">
                   <div class="col-md-6">Year 2013-2015</div>
-                  <div class="col-md-6">Masters In Information Technology</div>
+                  <div class="col-md-6 resume-text-align">
+                    Masters In Information Technology
+                  </div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-md-6">Year 2004-2008</div>
-                  <div class="col-md-6">Bachelor In Computer Engineering</div>
+                  <div class="col-md-6 resume-text-align">
+                    Bachelor In Computer Engineering
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <!-- Section of Project Starts from here-->
-        <section id="projects" class="div-alternative-color-projects">
+        <section id="projects" class="background-2">
           <div>
             <h1>PROJECTS</h1>
             <div class="flex-container">
               <div class="project-box">
                 <!-- Database performance evaluation -->
                 <!-- <p>Wisconsin Benchmark</p> -->
-                <div>Database performance evaluation</div>
+                <!-- <div>Database performance evaluation</div> -->
                 <img
                   class="imgborder"
                   src="Images/pic_benchmark.png"
@@ -216,6 +224,7 @@
                     </svg>
                   </a>
                 </div>
+                <div>Database performance evaluation</div>
                 <p class="p-project-box">
                   Project done as a part of Database Management System
                   Implementation course where the performance of databases in
@@ -225,7 +234,7 @@
               <div class="project-box">
                 <!-- <p>Website Development</p> -->
 
-                <div>Website Development</div>
+                <!-- <div>Website Development</div> -->
                 <img
                   class="imgborder"
                   src="Images/pic_website1.png"
@@ -253,6 +262,7 @@
                     </svg>
                   </a>
                 </div>
+                <div>Website Development</div>
                 <p class="p-project-box">
                   This is the project I did for my Web Development Class. It is
                   a personal website. It was developed using HTML, CSS,
