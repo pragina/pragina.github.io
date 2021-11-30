@@ -148,6 +148,11 @@ h1 {
   /* padding: 20px 20px 10px 20px; */
 }
 
+.aboutme-text-content {
+  padding: 0px 60px;
+  /* text-align: justify; */
+}
+
 .resume-text-align {
   text-align: left;
 }
