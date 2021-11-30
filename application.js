@@ -1,24 +1,21 @@
 let form = document.querySelector("form");
-// let form = document.querySelector("#contact");
 
-form.addEventListener("submit", handleSubmit);
-
-function handleSubmit(event) {
+const handleSubmit = (event) => {
   let name = form.elements.name.value;
   let email = form.elements.email.value;
   let message = form.elements.message.value;
 
+  let errormessage = document.querySelector("#errorMessageContainer");
+  let successmessage = document.querySelector("#successMessageContainer");
+
   if (name == "" || email == "" || message == "") {
-    console.log("Please enter all your information");
-    let errorreply = document.createElement("label");
-    errorreply.textContent = "Please enter all your information to submit";
-    errorreply.style.color = "red";
-    errorreply.style.fontWeight = "bold";
-    form.append(errorreply);
+    errormessage.style = "display:block";
+    successmessage.style = "display:none";
   } else {
-    console.log("Thank you! ");
-    let reply = document.createElement("label");
-    reply.textContent = "Thank you!";
-    form.append(reply);
+    errormessage.style = "display:none";
+    successmessage.style = "display:block";
+    form.elements.name.value = "";
+    form.elements.email.value = "";
+    form.elements.message.value = "";
   }
-}
+};

@@ -199,11 +199,11 @@
                 <!-- <p>Wisconsin Benchmark</p> -->
                 <!-- <div>Database performance evaluation</div> -->
                 <img
-                  class="imgborder"
+                  class="image-border"
                   src="Images/pic_benchmark.png"
                   alt="Benchmark Picture"
-                  width="150"
-                  height="150"
+                  width="140"
+                  height="140"
                 />
                 <div>
                   <a
@@ -237,11 +237,11 @@
 
                 <!-- <div>Website Development</div> -->
                 <img
-                  class="imgborder"
+                  class="image-border"
                   src="Images/pic_website1.png"
                   alt="Website Picture"
-                  width="150"
-                  height="150"
+                  width="140"
+                  height="140"
                 />
                 <div>
                   <a
@@ -283,6 +283,7 @@
               <form
                 class="bg-dark border rounded mx-auto p-2 form-label"
                 action=""
+                onsubmit="handleSubmit(); return false;"
               >
                 <div class="row mt-4">
                   <div class="col-md-2">
@@ -329,6 +330,19 @@
                 <!-- <div class="row mt-5"> -->
 
                 <button class="btn btn-primary">Submit</button>
+                <!-- <div id="errorMessageContainer" style="display: none"> -->
+                <div
+                  id="errorMessageContainer"
+                  class="message-container error-message"
+                >
+                  <label class="errMsg"
+                    >Please enter all your information to submit</label
+                  >
+                </div>
+                <!-- <div id="successMessageContainer" style="display: none"> -->
+                <div id="successMessageContainer" class="message-container">
+                  <label>Thank you!!!</label>
+                </div>
                 <!-- </div> -->
               </form>
             </div>
